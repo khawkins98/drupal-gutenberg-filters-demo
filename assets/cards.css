@@ -1,0 +1,479 @@
+.view-display-id-academic_programmes_list .main-layout .field--name-body p, .view-display-id-academic_programmes_list .field--name-node-changed-date,
+.view-display-id-academic_programmes_list .field--name-field-organization, .view-display-id-academic_programmes_list .main-layout .field--name-node-title a {
+  font-family: "Roboto", sans-serif;
+}
+
+.paragraph--type--simple-people-card-item .paragraph--type--simple-people-item-reference .container-fluid .layout-left .field--name-field-caption, .paragraph--type--simple-people-card-item-manually .simple-people-cards-right .field--name-field-subtitle, .paragraph--type--simple-people-card-item-manually .simple-people-cards-left .field--name-field-caption, .job-title, .view-display-id-academic_programmes_list .field--name-field-academic-programme-level {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.twitter-people-card a:after,
+.linkedin-people-card a:after,
+.facebook-people-card a:after, .paragraph--type--simple-people-card-item-manually .simple-people-cards-footer .field--type-link a:before,
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-footer .field--type-email a:before, .paragraph--type--simple-people-card-item-manually .field--name-field-link-twitter a:after,
+.paragraph--type--simple-people-card-item-manually .field--name-field-link-linkedin a:after,
+.paragraph--type--simple-people-card-item-manually .field--name-field-link-facebook a:after {
+  font-family: "FontAwesome";
+}
+
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-right .field--name-field-subtitle, .view-display-id-academic_programmes_list .main-layout .field--name-body p {
+  font-weight: 400;
+}
+
+.paragraph--type--simple-people-card-item .paragraph--type--simple-people-item-reference .container-fluid .layout-left .field--name-field-caption, .paragraph--type--simple-people-card-item-manually .simple-people-cards-left .field--name-field-caption {
+  font-weight: 500;
+}
+
+.paragraph--type--simple-people-card-item .paragraph--type--simple-people-item-reference .container-fluid .layout-top, .paragraph--type--simple-people-card-item-manually .simple-people-cards-header .field--name-field-type, .paragraph--type--simple-card-item-manually .field--name-field-title, .simple-highlight-card-inner-item .paragraph--type--simple-highlight-card-item-man .card-title, .paragraph--type--simple-content-item-manually .field--name-field-title, .paragraph--type--simple-content-item-horizontal .paragraph--type--simple-content-item-manually .field--name-field-title, .paragraph--type--simple-card h2,
+.paragraph--type--simple-people-card h2,
+.paragraph--type--simple-highlight-card h2,
+.paragraph--type--simple-content-card h2, .view-display-id-academic_programmes_list .field--name-field-academic-programme-level {
+  font-weight: 700;
+}
+
+.view-display-id-academic_programmes_list .field--name-node-changed-date,
+.view-display-id-academic_programmes_list .field--name-field-organization, .view-display-id-academic_programmes_list .main-layout .field--name-node-title a {
+  font-weight: 900;
+}
+
+.view-display-id-academic_programmes_list .main-layout .field--name-node-title a {
+  font-size: 2rem;
+  line-height: 24px;
+}
+@media only screen and (max-width: 768px) {
+  .view-display-id-academic_programmes_list .main-layout .field--name-node-title a {
+    font-size: 1.8rem;
+  }
+}
+
+.view-display-id-academic_programmes_list .field--name-node-changed-date,
+.view-display-id-academic_programmes_list .field--name-field-organization {
+  font-size: 1.4rem;
+  line-height: 16px;
+}
+@media only screen and (max-width: 768px) {
+  .view-display-id-academic_programmes_list .field--name-node-changed-date,
+.view-display-id-academic_programmes_list .field--name-field-organization {
+    font-size: 1.3rem;
+  }
+}
+
+.view-display-id-academic_programmes_list .main-layout .field--name-body p {
+  font-size: 1.6rem;
+  line-height: 24px;
+}
+@media only screen and (max-width: 768px) {
+  .view-display-id-academic_programmes_list .main-layout .field--name-body p {
+    font-size: 1.4rem;
+    line-height: 20px;
+  }
+}
+
+.view-display-id-academic_programmes_list .main-layout ul li {
+  font-size: 1.4rem;
+  line-height: 16px;
+}
+@media only screen and (max-width: 768px) {
+  .view-display-id-academic_programmes_list .main-layout ul li {
+    font-size: 1.2rem;
+    line-height: 16px;
+  }
+}
+
+.view-display-id-academic_programmes_list .field--name-field-academic-programme-level {
+  font-size: 1.4rem;
+  line-height: 16px;
+  text-transform: capitalize;
+}
+
+.job-title {
+  color: #666666;
+}
+
+.paragraph--type--simple-card img,
+.paragraph--type--simple-people-card img,
+.paragraph--type--simple-highlight-card img,
+.paragraph--type--simple-content-card img {
+  width: 100%;
+}
+.paragraph--type--simple-card .section-wrapper-centered,
+.paragraph--type--simple-people-card .section-wrapper-centered,
+.paragraph--type--simple-highlight-card .section-wrapper-centered,
+.paragraph--type--simple-content-card .section-wrapper-centered {
+  width: auto;
+}
+.paragraph--type--simple-card.paragraph,
+.paragraph--type--simple-people-card.paragraph,
+.paragraph--type--simple-highlight-card.paragraph,
+.paragraph--type--simple-content-card.paragraph {
+  margin: 0 !important;
+}
+.paragraph--type--simple-card .paragraph,
+.paragraph--type--simple-people-card .paragraph,
+.paragraph--type--simple-highlight-card .paragraph,
+.paragraph--type--simple-content-card .paragraph {
+  margin: 0 !important;
+}
+.paragraph--type--simple-card h2,
+.paragraph--type--simple-people-card h2,
+.paragraph--type--simple-highlight-card h2,
+.paragraph--type--simple-content-card h2 {
+  margin-top: 20px;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+.paragraph--type--simple-card h2 a,
+.paragraph--type--simple-people-card h2 a,
+.paragraph--type--simple-highlight-card h2 a,
+.paragraph--type--simple-content-card h2 a {
+  color: #333333;
+}
+
+.paragraph--type--simple-people-card .row {
+  margin: 0;
+}
+
+.paragraph--type--simple-people-card {
+  background-color: rgba(221, 232, 240, 0.29);
+}
+
+.paragraph--type--simple-content-item-normal .container-fluid,
+.paragraph--type--simple-content-item-vertical .container-fluid,
+.paragraph--type--simple-content-item-horizontal .container-fluid {
+  padding: 0;
+}
+
+.paragraph--type--simple-content-item-horizontal .paragraph--type--simple-content-item-manually .field--name-field-title {
+  margin: 0 0 20px 0;
+  color: #333333;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+
+.paragraph--type--simple-card-item .row div {
+  padding: 0;
+}
+
+.paragraph--type--simple-content-item-manually .field--name-field-title {
+  margin: 20px 0 10px 0;
+  color: #333333;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+.paragraph--type--simple-content-item-manually .field--name-field-url {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.paragraph--type--simple-content-item-normal .paragraph--type--simple-content-item-manually .field--name-field-long-text {
+  margin: 20px 0 0 0;
+}
+
+.simple-highlight-card-inner-item {
+  padding: 0;
+}
+.simple-highlight-card-inner-item .container-fluid {
+  padding: 0;
+}
+.simple-highlight-card-inner-item .paragraph--type--simple-highlight-card-item-man .card-image .field--name-field-caption {
+  display: none;
+}
+.simple-highlight-card-inner-item .paragraph--type--simple-highlight-card-item-man .card-category {
+  padding: 5px 10px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.simple-highlight-card-inner-item .paragraph--type--simple-highlight-card-item-man .card-title {
+  margin: 10px 0 0;
+  color: #333333;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+
+.paragraph--type--simple-card-item-manually .field--name-field-title {
+  margin: 20px 0 0;
+  color: #333333;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+
+.paragraph--type--simple-people-card-item-manually .row {
+  margin: 0;
+}
+.paragraph--type--simple-people-card-item-manually .field--name-field-link-twitter,
+.paragraph--type--simple-people-card-item-manually .field--name-field-link-linkedin,
+.paragraph--type--simple-people-card-item-manually .field--name-field-link-facebook {
+  display: inline-block;
+  margin: 5px 5px 0 0;
+  font-size: 0rem;
+}
+.paragraph--type--simple-people-card-item-manually .field--name-field-link-twitter a:hover,
+.paragraph--type--simple-people-card-item-manually .field--name-field-link-linkedin a:hover,
+.paragraph--type--simple-people-card-item-manually .field--name-field-link-facebook a:hover {
+  text-decoration: none;
+}
+.paragraph--type--simple-people-card-item-manually .field--name-field-link-twitter a:after,
+.paragraph--type--simple-people-card-item-manually .field--name-field-link-linkedin a:after,
+.paragraph--type--simple-people-card-item-manually .field--name-field-link-facebook a:after {
+  color: #004f91;
+  font-size: 3rem;
+}
+.paragraph--type--simple-people-card-item-manually .field--name-field-link-twitter a:after {
+  content: "\f099";
+}
+.paragraph--type--simple-people-card-item-manually .field--name-field-link-linkedin a:after {
+  content: "\f0e1";
+}
+.paragraph--type--simple-people-card-item-manually .field--name-field-link-facebook a:after {
+  color: #004f91;
+  font-size: 3rem;
+}
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-header .field--name-field-type {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-main {
+  width: 100%;
+}
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-left {
+  margin: 0 0 13px 0;
+  padding: 20px 12px 0 0;
+  position: relative;
+}
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-left .field--name-field-caption {
+  width: 100%;
+  padding: 15px 24px 24px 24px;
+  font-size: 14px !important;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-right {
+  padding: 20px 0 0 12px;
+}
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-right .field--name-field-title {
+  font-size: 1.6rem;
+}
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-right .field--name-field-subtitle {
+  margin: 10px 0;
+  color: #666666;
+  font-size: 1.6rem;
+}
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-body {
+  margin: 0;
+  padding: 20px 20px 0 20px;
+}
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-footer {
+  margin: 0;
+  padding: 0 20px 20px 20px;
+}
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-footer .field--type-link,
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-footer .field--type-email {
+  margin: 10px 0 15px;
+}
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-footer .field--type-link a,
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-footer .field--type-email a {
+  display: block;
+  padding: 0 0 0 40px;
+  position: relative;
+}
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-footer .field--type-link a:before,
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-footer .field--type-email a:before {
+  display: inline-block;
+  color: #9abbd6;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 2rem;
+  margin-right: 16px;
+  text-decoration: none;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-footer .field--type-link a:hover,
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-footer .field--type-email a:hover {
+  color: #106cb8;
+}
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-footer .field--type-link a:hover:before,
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-footer .field--type-email a:hover:before {
+  color: #004f91;
+}
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-footer .field--type-link a.ext:before,
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-footer .field--type-email a.ext:before {
+  content: "\f08e";
+}
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-footer .field--type-link a.mailto:before,
+.paragraph--type--simple-people-card-item-manually .simple-people-cards-footer .field--type-email a.mailto:before {
+  content: "\f003";
+}
+
+.twitter-people-card,
+.linkedin-people-card,
+.facebook-people-card {
+  display: inline-block;
+  margin: 5px 5px 0 0;
+  font-size: 0rem;
+}
+.twitter-people-card a:hover,
+.linkedin-people-card a:hover,
+.facebook-people-card a:hover {
+  text-decoration: none;
+}
+.twitter-people-card a:after,
+.linkedin-people-card a:after,
+.facebook-people-card a:after {
+  color: #004f91;
+  font-size: 3rem;
+}
+
+.twitter-people-card a:after {
+  content: "\f099";
+}
+
+.linkedin-people-card a:after {
+  content: "\f0e1";
+}
+
+.facebook-people-card a:after {
+  content: "\f09a";
+}
+
+.paragraph--type--simple-highlight-card h2 {
+  margin-top: 0;
+}
+
+.paragraph--type--simple-people-card-item .paragraph--type--simple-people-item-reference .container-fluid {
+  padding: 0;
+}
+.paragraph--type--simple-people-card-item .paragraph--type--simple-people-item-reference .container-fluid .layout-top {
+  margin: 0 0 20px 0;
+  padding: 15px;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  background: #dd9261;
+  text-align: center;
+  text-transform: uppercase;
+}
+.paragraph--type--simple-people-card-item .paragraph--type--simple-people-item-reference .container-fluid .layout-top a {
+  color: rgba(255, 255, 255, 0.9);
+}
+.paragraph--type--simple-people-card-item .paragraph--type--simple-people-item-reference .container-fluid .layout-left {
+  padding-left: 0;
+  position: relative;
+}
+.paragraph--type--simple-people-card-item .paragraph--type--simple-people-item-reference .container-fluid .layout-left .field--name-field-caption {
+  width: 100%;
+  padding: 15px 24px 24px 24px;
+  font-size: 14px !important;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.paragraph--type--simple-people-card-item .paragraph--type--simple-people-item-reference .container-fluid .layout-right {
+  padding-right: 0;
+}
+.paragraph--type--simple-people-card-item .paragraph--type--simple-people-item-reference .container-fluid .layout-main {
+  padding: 20px;
+}
+.paragraph--type--simple-people-card-item .paragraph--type--simple-people-item-reference .container-fluid .layout-main .st-lnk a {
+  color: #106cb8;
+}
+
+.five-highlighted-cards-right-col .paragraph--type--simple-highlight-card .section-wrapper-centered:nth-child(3) {
+  clear: both;
+}
+
+.simple-card-masonry-item-inner {
+  margin: 0 -20px !important;
+}
+.simple-card-masonry-item-inner .paragraph--simple-card-masonry-item {
+  padding: 0 20px;
+}
+.simple-card-masonry-item-inner .paragraph--simple-card-masonry-item div {
+  padding: 0;
+}
+
+.view-display-id-academic_programmes_list .views-row {
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.view-display-id-academic_programmes_list .field--name-field-academic-programme-level {
+  background-color: #004f91;
+}
+.view-display-id-academic_programmes_list .field--name-node-changed-date,
+.view-display-id-academic_programmes_list .field--name-field-organization {
+  align-self: center;
+}
+.view-display-id-academic_programmes_list .field--name-node-changed-date {
+  margin-left: 16px;
+}
+.view-display-id-academic_programmes_list .field--name-field-organization::before {
+  content: "|";
+  margin: 0px 5px;
+}
+.view-display-id-academic_programmes_list .main-layout ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.view-display-id-academic_programmes_list .main-layout ul li {
+  list-style-type: disc;
+  font-size: 14px;
+  line-height: 25px;
+  width: 40%;
+}
+.view-display-id-academic_programmes_list .field--label::after {
+  content: ":";
+}
+.view-display-id-academic_programmes_list .full-content-1-column .container {
+  max-width: auto;
+  width: unset;
+}
+.view-display-id-academic_programmes_list .full-content-1-column .layout-first__wrapper {
+  flex-wrap: nowrap;
+  gap: 0;
+  min-height: unset;
+}
+
+@media only screen and (max-width: 1200px) {
+  .view-kb-latest-additions .layout-first__wrapper {
+    flex-direction: column;
+  }
+  .view-kb-latest-additions .layout-first__wrapper .field--name-field-academic-programme-level,
+.view-kb-latest-additions .layout-first__wrapper .field--name-node-changed-date,
+.view-kb-latest-additions .layout-first__wrapper .field--name-field-organization {
+    align-self: flex-start;
+  }
+  .view-kb-latest-additions .layout-first__wrapper .field--name-node-changed-date {
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+  .view-kb-latest-additions .layout-first__wrapper .field--name-field-organization {
+    margin-top: 5px;
+  }
+  .view-kb-latest-additions .layout-first__wrapper .field--name-field-organization::before {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .view-kb-latest-additions .main-layout ul {
+    flex-direction: column;
+  }
+  .view-kb-latest-additions .main-layout li {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .view-kb-latest-additions .main-layout {
+    padding: 0px;
+  }
+}
+
+/*# sourceMappingURL=cards.css.map */

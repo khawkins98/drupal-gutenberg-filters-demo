@@ -1,0 +1,28 @@
+.breadcrumb {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.breadcrumb li + li:before {
+  font-family: "FontAwesome";
+}
+
+.breadcrumb {
+  font-weight: 700;
+}
+
+.breadcrumb {
+  text-transform: capitalize;
+  padding-left: 0;
+}
+.breadcrumb a {
+  color: #333333;
+}
+.breadcrumb li + li:before {
+  padding: 0 12px 0 14px;
+  color: #89898d;
+  font-size: 2rem;
+  content: "\f0da";
+  vertical-align: top;
+}
+
+/*# sourceMappingURL=breadcrumb.css.map */
