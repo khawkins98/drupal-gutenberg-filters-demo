@@ -1,0 +1,59 @@
+.user-form,
+.user-login-form,
+.user-register-form,
+.user-pass,
+.user-pass-reset {
+  max-width: 1164px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.user-form .button,
+.user-login-form .button,
+.user-register-form .button,
+.user-pass .button,
+.user-pass-reset .button {
+  margin: 0 auto;
+}
+
+.user-pass-reset {
+  padding-top: 100px;
+}
+
+@media (min-width: 768px) {
+  .user-form,
+.user-login-form,
+.user-register-form,
+.user-pass,
+.user-pass-reset {
+    width: 744px;
+    padding: 0;
+  }
+}
+@media (min-width: 992px) {
+  .user-form,
+.user-login-form,
+.user-register-form,
+.user-pass,
+.user-pass-reset {
+    width: 964px;
+  }
+}
+@media (min-width: 1200px) {
+  .user-form,
+.user-login-form,
+.user-register-form,
+.user-pass,
+.user-pass-reset {
+    width: 1164px;
+  }
+}
+.webform-submission-form .webform-input-half-size {
+  width: 50%;
+}
+.webform-submission-form .form-message {
+  width: 85%;
+}
+.webform-submission-form .g-recaptcha {
+  margin: 30px 0 30px;
+}
+

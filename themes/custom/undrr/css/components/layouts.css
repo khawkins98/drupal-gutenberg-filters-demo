@@ -1,0 +1,248 @@
+.custom-full-content .layout-right .field {
+  display: flow-root;
+}
+
+.custom-full-content .field--name-field-attachment .field--label {
+  font-weight: 400;
+}
+
+.layout-first {
+  margin-bottom: 40px;
+  border-bottom: 10px solid #e3e3e3;
+  padding-top: 1rem;
+}
+.layout-first .field--item,
+.layout-first .field--items,
+.layout-first .field--label {
+  display: inline-block;
+}
+.layout-first .row {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.layout-first .field--name-field-authors .field-label-inline:after {
+  content: ": ";
+}
+.layout-first .field--name-field-authors .author-name:after {
+  content: ", ";
+}
+.layout-first .field--name-field-authors .author-name:last-of-type:after {
+  content: "";
+}
+
+@media only screen and (min-width: 992px) {
+  .layout-first__wrapper {
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    min-height: 10.5rem;
+    position: relative;
+  }
+  .layout-first__wrapper .breadcrumb {
+    flex-basis: 100%;
+  }
+  .layout-first__wrapper .field--name-node-title,
+.layout-first__wrapper > h1,
+.layout-first__wrapper > h2,
+.layout-first__wrapper .layout-first_title_description {
+    flex-basis: 100%;
+    margin-right: 20%;
+  }
+  .layout-first__wrapper .button-upload-content,
+.layout-first__wrapper .button-edit-upload-content {
+    align-items: end;
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: row-reverse;
+    height: 0;
+  }
+  .layout-first__wrapper .button-upload-content {
+    margin-top: -5rem;
+  }
+  .layout-first__wrapper .button-edit-upload-content {
+    margin-top: -7rem;
+  }
+  .layout-first__wrapper .button-edit-upload-content + .button-upload-content {
+    margin-top: 0rem;
+  }
+  .layout-first__wrapper .field--name-field-organization,
+.layout-first__wrapper .entity-short-description {
+    flex-basis: 100%;
+    margin-right: 20%;
+  }
+}
+.custom-full-content {
+  position: relative;
+}
+.custom-full-content .layout-header {
+  padding-bottom: 35px;
+}
+.custom-full-content .layout-header img {
+  width: 100%;
+}
+.custom-full-content .layout-right {
+  margin: 0 0 0 17px;
+}
+.custom-full-content .layout-right::before {
+  content: "";
+  background: #9abbd6;
+  display: block;
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -5px;
+}
+.custom-full-content .layout-right .field {
+  display: block;
+}
+.custom-full-content .layout-right .container {
+  width: 100%;
+}
+.custom-full-content .field--name-field-attachment {
+  background-color: rgb(230, 230, 230);
+  padding: 20px;
+}
+.custom-full-content .field--name-field-attachment .field--label {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.custom-full-content .field--name-field-attachment .section-attachment-selector {
+  margin-bottom: 15px;
+}
+.custom-full-content .field--name-field-attachment .section-attachment-selector #attachment-selector {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  min-height: 34px;
+  padding: 10px 5px 10px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  box-shadow: 0px 2px 6px grey;
+  border: none;
+  padding-right: 34px;
+  background-image: url(../../images/down_mcr.png);
+  background-repeat: no-repeat;
+  background-size: 34px;
+  background-position: right 0 top 0;
+  text-overflow: ellipsis;
+  text-size-adjust: 80%;
+  -webkit-text-size-adjust: 80%;
+}
+.custom-full-content .field--name-field-attachment .section-attachment-selector #attachment-selector:focus {
+  outline: none;
+}
+.custom-full-content .field--name-field-attachment .section-attachment-selector #attachment-selector:hover {
+  cursor: pointer;
+}
+.custom-full-content .field--name-field-attachment .section-attachment-selector #attachment-selector option {
+  background-color: white;
+}
+.custom-full-content .field--name-field-attachment .section-attachment-selector.opened #attachment-selector {
+  background-image: url("../../images/up_mcr.png");
+  background-repeat: no-repeat;
+  background-size: 34px;
+  background-position: right 0 top 0;
+}
+.custom-full-content .attachment-download-button {
+  margin-bottom: 15px;
+}
+.custom-full-content .attachment-download-button .attachment-download {
+  border-radius: 5px;
+  background-color: #106cb8;
+  color: white;
+  padding: 7px 25px;
+  width: 60%;
+  text-align: center;
+  text-decoration: none;
+}
+.custom-full-content .layout-left .container {
+  width: 100%;
+}
+.custom-full-content .domain_badges {
+  margin: 25px 0 35px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: flex-start;
+}
+.custom-full-content .domain_badges .domain_badge_title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  width: 100%;
+}
+.custom-full-content .domain_badges .badge {
+  background-color: transparent;
+  border-radius: 0px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  min-width: unset;
+  padding: 0px;
+}
+.custom-full-content .domain_badges .badge a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.custom-full-content .domain_badges .badge a img {
+  background-color: #004f91;
+  margin-right: 15px;
+  border-radius: 70px;
+  height: 55px;
+  width: 55px;
+}
+.custom-full-content .domain_badges .badge a span {
+  background-color: #004f91;
+  margin-right: 15px;
+  border-radius: 70px;
+  height: 55px;
+  width: 55px;
+}
+.custom-full-content .domain_badges .badge a svg {
+  display: none;
+}
+.custom-full-content .domain_badges .badge a h4 {
+  color: #333333;
+  padding-right: 20px;
+}
+
+@media (min-width: 992px) {
+  .custom-full-content .layout-right {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .layout-first__wrapper {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+  }
+  .layout-header {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+@media only screen and (max-width: 768px) and (width: 768px) {
+  .layout-header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.custom-media {
+  position: relative;
+}
+
